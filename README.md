@@ -13,7 +13,7 @@
   <img src="https://user-images.githubusercontent.com/81040584/191570971-2d93cfdc-04a0-47f9-8645-fdbd26b1efa8.gif"/>
 </p>
 
-**3.** **Optional:** create a 'zone.tif' file in order to define zones within the xy plane.  
+**3.** **Optional:** create a 'zone.tif' file in order to define zones within the **xy** plane.  
 
 **4.** Load all files into SLMTargets then remove any undesirable neurons, define the stimulation cluster size, and desired laser power per cell.  
 
