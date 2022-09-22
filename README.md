@@ -5,7 +5,7 @@
 [ Pictured above is the main interface of **SLMTargets** displaying a two-photon z-stack of lobule Crus I of the cerebellum. Cre-expressing Purkinje cells were labeled virally with the _state-of-the-art_ calcium indicator [GCaMP8s](https://www.janelia.org/jgcamp8-calcium-indicators). User-defined zones and neural clusters targeted for stimulation are colored uniquely. ]
 # Background: modulating light in space
 ![GitHub_targets_altered330x330](https://user-images.githubusercontent.com/81040584/191792073-db272860-1b16-4981-a57e-f8cebe329c62.jpg) ![GitHub_phasemask330x330](https://user-images.githubusercontent.com/81040584/191792586-14e15657-e8a8-4ea7-82f9-49685ef261e7.jpg) ![Hologram330x330](https://user-images.githubusercontent.com/81040584/191792614-04f39d4c-0ca3-4fa2-bd00-23b8c19f21c5.jpg)  
-[ _Left_: The desired pattern of light, _Middle_: the computed phase mask required for pattern generation, _Right_: the resultant 2-dimensional hologram projected into a flourescent slide and captured using a microscope camera ]
+[ _Left_: The desired pattern of light, _Middle_: the computed phase mask required for pattern generation, _Right_: the resultant 2-dimensional hologram projected into a flourescent slide and captured using a microscope camera. ]
 # Basic use
 
 
