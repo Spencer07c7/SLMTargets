@@ -1,5 +1,5 @@
 # SLMTargets
-**SLMTargets** is a MATLAB-based GUI for running 3D _holographic_ photostimulation experiments on arbitrary sets of neurons.
+**SLMTargets** is a MATLAB-based GUI for running 3D _holographic_ photostimulation experiments on arbitrary sets of neurons. Its output is compromised of [spatial light modulator](https://en.wikipedia.org/wiki/Spatial_light_modulator) phase masks used for creating custom holograms and _optional_ Bruker microscope control files containing galvo positioning instructions and photostimulation sequencing instructions.
 
 ![SLMTargets](https://user-images.githubusercontent.com/81040584/191542064-5f83f272-53fc-4393-b11a-1dc8494e90d4.gif)  
 * Pictured above is the main interface of **SLMTargets** displaying a two-photon z-stack of lobule Crus I of the cerebellum. Cre-expressing Purkinje cells were labeled virally with [GCaMP8s](https://www.janelia.org/jgcamp8-calcium-indicators). User-defined zones and neural clusters targeted for stimulation are colored uniquely.
