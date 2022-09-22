@@ -16,7 +16,7 @@
   <img src="https://user-images.githubusercontent.com/81040584/191570971-2d93cfdc-04a0-47f9-8645-fdbd26b1efa8.gif"/>
 </p>
 <p align="center">
-The 3D projection of Purkinje cell masks created in Cellpose
+[ The 3D projection of Purkinje cell masks created in Cellpose. ]
 </p>
 
 **3.** **Optional:** create a 'zone.tif' file in order to define zones within the **xy** plane.  
