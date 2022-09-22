@@ -5,6 +5,7 @@
 [ Pictured above is the main interface of **SLMTargets** displaying a two-photon z-stack of lobule Crus I of the cerebellum. Cre-expressing Purkinje cells were labeled virally with the _state-of-the-art_ calcium indicator [GCaMP8s](https://www.janelia.org/jgcamp8-calcium-indicators). User-defined zones and neural clusters targeted for stimulation are colored uniquely. ]
 # Background: modulating light in 3D
 
+[image targets] -> [phase mask] -> [hologram]
 
 # Basic use
 **1.** Acquire a **z-stack** of your tissue of interest and load it using the **_load image_** button. The higher the z-resolution of the image stack, the more precise your holographic targeting will be. I recommend using **2-4 µm spacing**. Do ensure the images have a high _signal-to-noise ratio_ (you will likely need to average many images per plane).  
