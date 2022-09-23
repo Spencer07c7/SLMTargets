@@ -8,7 +8,7 @@ function XML = MarkPoints_XMLMaker(varargin)
 p = inputParser;
 
 % for mark point series element
-p.addOptional('ExptCat', 'Lloyd');
+p.addOptional('ExptCat', 'Spencer');
 p.addOptional('ExptName', 'Test');
 p.addOptional('Iterations', 1);
 p.addOptional('IterationDelay', 0);
@@ -23,8 +23,8 @@ p.addOptional('TriggerFrequency', 'None');
 p.addOptional('TriggerSelection', 'None');
 p.addOptional('TriggerCount', 1);
 p.addOptional('AsyncSyncFrequency', 'None');
-p.addOptional('VoltageOutputCategoryName', 'Lloyd');
-p.addOptional('VoltageOutputExperimentName', '1msPulseOut_6713AO0');
+p.addOptional('VoltageOutputCategoryName', '');%Spencer
+p.addOptional('VoltageOutputExperimentName', '');%1msPulseOut_6713AO0
 p.addOptional('VoltageRecCategoryName', 'None');
 p.addOptional('parameterSet', 'CurrentSettings');
 
@@ -115,8 +115,7 @@ for i = 1:p.Results.NumRows
             'TriggerSelection="' TriggerSelection{i} '" '...
             'TriggerCount="' num2str(TriggerCount(i)) '" '...
             'AsyncSyncFrequency="' AsyncSyncFrequency{i} '" '...
-            'VoltageOutputCategoryName="' VoltageOutputCategoryName{i} '" '...
-            'VoltageOutputExperimentName="' VoltageOutputExperimentName{i} '" '...
+            'VoltageOutputCategoryName="' VoltageOutputCategoryName{i} '" '... %  add in next line if needed: 'VoltageOutputExperimentName="' VoltageOutputExperimentName{i} '" '...
             'VoltageRecCategoryName="' VoltageRecCategoryName{i} '" '...
             'parameterSet="' parameterSet{i} '" '...
             '>'...
