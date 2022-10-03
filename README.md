@@ -27,5 +27,5 @@ An example of how this works is shown below:
 **4.** Load all files into **SLMTargets** then remove any undesirable neurons, define the stimulation cluster size, and prefered laser power per cell.  
 
 **5.** To finish click the **_export all_** button. All target positions, phase masks, and microscope control files will be saved to the current SLMTargets directory.
-
+# Installation
 
