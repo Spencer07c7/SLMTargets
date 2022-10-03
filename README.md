@@ -13,7 +13,7 @@ An example of how this works is shown below:
 **1.** Acquire a **z-stack** of your tissue of interest and load it using the **_load image_** button. The higher the z-resolution of the image stack, the more precise your holographic targeting will be. I recommend using **2-4 µm spacing**. Do ensure the images have a high _signal-to-noise ratio_ (you will likely need to average many images per plane).  
 
 **2.** Run [Cellpose](https://github.com/MouseLand/cellpose) on the z-stack in order to automatically **extract the 3D mask** of each neuronal cell body in the form of a 'masks.tif' file. This file will be used to compute the _centroid_ of each neuron within the image volume. Load it using the **_load masks_** button.  
-**Note:** The mask of each neuron contains pixels that have a value corresponding its ROI number from Cellpose. Please ensure the masks file contains as many images as your z-stack.  
+**Note:** The mask of each neuron consists of pixels that have a value corresponding its ROI number from Cellpose. The masks file should contain as many images as your z-stack.  
             
 <p align="center">
   <img src="https://user-images.githubusercontent.com/81040584/191570971-2d93cfdc-04a0-47f9-8645-fdbd26b1efa8.gif"/>
