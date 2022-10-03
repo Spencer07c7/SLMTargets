@@ -5,7 +5,7 @@
 [ The **main interface** displaying a two-photon z-stack of Purkinje cells of the cerebellum labeled with the calcium indicator [GCaMP8s](https://www.janelia.org/jgcamp8-calcium-indicators). User-defined zones and neural clusters targeted for stimulation are colored uniquely. ]
 # Background: modulating light in space
 When light strikes the surface of an LCoS SLM, it is reflected and phase shifted according to the [refractive index](https://en.wikipedia.org/wiki/Refractive_index) of the liquid crystal pixel it passes through - a property that is conveniently modifiable with voltage. Thus the user is empowered with the ability to spatially pattern the phase of the wavefront by setting the voltage at each pixel, which can be achieved by uploading a custom phase mask to the SLM. When phase-modulated light is subsequently passed through the objective lens of a microscope it undergoes a Fourier transform, resulting in the spatially varying distribution of light we call a hologram.  
-
+An example of how this works is shown below:  
 ![combine_images](https://user-images.githubusercontent.com/81040584/191947510-60a9e911-c752-4e85-867b-5145b28aaafc.jpg)
 [ _Left_: The desired pattern of light, _Middle_: the computed phase mask required for pattern generation, _Right_: the resultant 2-dimensional hologram projected into a flourescent slide and captured using a microscope camera. ]
 # Basic use
