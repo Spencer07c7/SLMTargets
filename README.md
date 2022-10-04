@@ -30,4 +30,5 @@ An example of how this works is shown below:
 
 **5.** To finish click the **_export all_** button. All target positions, phase masks, and microscope control files will be saved to the current SLMTargets directory.
 # Installation
+SLMTargets requires a CUDA-enabled GPU. To date, SLMTargets has been tested on a NVIDIA GeForce RTX 2080 SUPER and a 
 
