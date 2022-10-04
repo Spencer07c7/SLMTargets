@@ -9,7 +9,7 @@ When light strikes the surface of an LCoS SLM, it is reflected and phase shifted
 To compute a phase mask from a desired set of xy points, **SLMTargets** makes use of [HOTlab](https://github.com/MartinPersson/HOTlab) - an open source GPU library that implements the [Gerchbarg-Saxton algorithm](https://en.wikipedia.org/wiki/Gerchberg%E2%80%93Saxton_algorithm) - an iterative phase retrieval algorithim.
 
 An example of how this works is shown below:  
-![combine_images](https://user-images.githubusercontent.com/81040584/191947510-60a9e911-c752-4e85-867b-5145b28aaafc.jpg)
+![combine_images](https://user-images.githubusercontent.com/81040584/191947510-60a9e911-c752-4e85-867b-5145b28aaafc.jpg)  
 [ _Left_: The desired pattern of light, _Middle_: the computed SLM phase mask required for pattern generation, _Right_: the resultant 2-dimensional hologram projected into a flourescent slide and captured using a microscope camera. ]
 # Basic use
 **1.** Acquire a **z-stack** of your tissue of interest and load it using the **_load image_** button. The higher the z-resolution of the image stack, the more precise your holographic targeting will be. I recommend using **2-4 µm spacing**. Do ensure the images have a high _signal-to-noise ratio_ (you will likely need to average many images per plane).  
