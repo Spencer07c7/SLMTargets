@@ -10,7 +10,7 @@ To compute a phase mask from a desired set of xy points, **SLMTargets** makes us
 
 An example of how this works is shown below:  
 ![combine_images](https://user-images.githubusercontent.com/81040584/191947510-60a9e911-c752-4e85-867b-5145b28aaafc.jpg)  
-| _Left_: The desired pattern of light, _Middle_: the computed SLM phase mask required for pattern generation, _Right_: the resultant 2-dimensional hologram projected into a flourescent slide and captured using a microscope camera. |
+| _Left_: The desired pattern of light, _Middle_: the computed SLM phase mask required for pattern generation, _Right_: the resultant 2-dimensional hologram projected into a flourescent slide and captured using a microscope camera. |______
 # Basic use
 **1.** Acquire a **z-stack** of your tissue of interest and load it using the **_load image_** button. The higher the z-resolution of the image stack, the more precise your holographic targeting will be. I recommend using **2-4 µm spacing**. Do ensure the images have a high _signal-to-noise ratio_ (you will likely need to average many images per plane).  
 
